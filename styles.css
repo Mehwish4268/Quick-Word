@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ad6feb, #28024e);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.box {
+    top: 50%;
+    border: 5px solid rgb(6, 95, 95);
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: white;
+    color: black;
+    padding: 40px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+h2 {
+    color: rgb(6, 95, 95);
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bi-book-fill {
+    color: rgb(22, 112, 112);
+}
+
+button {
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(20, 104, 104);
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
